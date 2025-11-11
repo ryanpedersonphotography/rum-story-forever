@@ -1,7 +1,6 @@
 {
-  "name": "next-netlify-platform-starter",
-  "version": "0.1.0",
-  "type": "module",
+  "name": "website-builder",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,20 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/blobs": "^10.3.3",
-    "blobshape": "^1.0.0",
-    "bright": "^1.0.0",
-    "markdown-to-jsx": "^7.7.16",
-    "next": "^16.0.0",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "unique-names-generator": "^4.7.1"
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.15",
-    "eslint": "8.57.1",
-    "eslint-config-next": "16.0.0-beta.0",
-    "postcss": "^8.4.36",
-    "tailwindcss": "^4.1.15"
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
   }
 }
